@@ -1,2 +1,9 @@
-com/cloudproject/servlets/LoginServlet.class
+com/cloudproject/db/ConnectionManager.class
 com/cloudproject/servlets/RegistrationServlet.class
+com/cloudproject/db/LoginValidateDb.class
+com/cloudproject/servlets/LoginServlet.class
+com/cloudproject/constants/Constants.class
+com/cloudproject/servlets/StorageService.class
+com/cloudproject/servlets/UploadFileServlet.class
+com/cloudproject/beans/UserBean.class
+com/cloudproject/db/RegistrationDb.class

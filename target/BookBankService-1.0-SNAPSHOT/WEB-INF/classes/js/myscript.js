@@ -1,5 +1,46 @@
 'use strict';
 
+
+//$(document).ready(function(){
+//    $('#loginButton').click(function(){
+//        var email = $('#email').val();
+//        var password = $('#password').val();
+//        $.ajax({
+//            type:'POST',
+//            data: {
+//                email : email,
+//                password : password
+//            },
+//            url : '/LoginServlet',
+//            success : function(response){
+//                $('#errorMsg').append(response);
+//            }
+//        });
+//
+//    });
+//    
+//    $('#registerButton').click(function(){
+//    	var name = $('#name').val();
+//        var email = $('#email').val();
+//        var password = $('#password').val();
+//        $.ajax({
+//            type:'POST',
+//            data: {
+//            	name : name,
+//                email : email,
+//                password : password
+//            },
+//            url : '/RegistrationServlet',
+//            success : function(response){
+//                $('#errorMsg').html(response);
+//            }
+//        });
+//
+//    });
+//
+//});
+
+
 $(function() {
 	$("input[type='password'][data-eye]").each(function(i) {
 		var $this = $(this),
@@ -64,3 +105,4 @@ $(function() {
 		form.addClass('was-validated');
 	});
 });
+
